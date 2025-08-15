@@ -1,0 +1,93 @@
+/* ==============================
+   Global Styles
+============================== */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ==============================
+   Header Styles
+============================== */
+header {
+    background-color:lightgrey;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background 0.3s;
+};
+
+header nav ul li a:hover {
+    background-color: #45a049;
+}
+
+/* ==============================
+   Main Content Styles
+============================== */
+
+main {
+    padding: 20px;
+}
+
+/* Card Section demonstrating Box Model */
+
+.card {
+    background-color: white;
+    padding: 20px;      /* Inner spacing inside border */
+    margin: 20px 0;     /* Space outside the element */
+    border: 2px solid #ccc; /* Element border */
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* ==============================
+   Footer Styles
+============================== */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
